@@ -1,0 +1,146 @@
+body,p,ol,ul,h1,h2,h3,h4,h5,h6,fieldset,select,input,textarea{
+	margin:0;
+	padding: 0;
+}
+html{
+	font-size:26.67vw;
+}
+html,body{
+	 width:100%;
+}
+a{
+	text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+
+img{
+	border:none;
+	display:block;
+}
+/* 头部 */
+header{
+    width:100%;
+    height:.48rem;
+    display: flex;
+    line-height:.48rem;
+    border-bottom: 1px solid #b5b5b5;
+}
+header img{
+    margin-left:.20rem;
+    width: 0.10rem;
+    height:.18rem;
+    margin-top:.16rem;
+}
+
+header span{
+    font-size:.20rem;
+    text-align: center;
+    width:3.35rem;
+ 
+}
+/* 导航部分 */
+nav{
+    width:100%;
+    height:1.6rem;
+}
+.navs {
+    display: flex;
+    justify-content: space-between;
+    padding-left:.20rem;
+    margin-left:.10rem;
+    margin-bottom: .24rem;
+    margin-top: .13rem;
+    
+
+}
+.navs a{
+    width:25%;
+}
+.navs a img{
+    width:.44rem;
+    height: 0.34rem;
+    
+}
+.navs a span{
+    display: block;
+    font-size:.14rem;
+    color:#878789;
+    margin-top:.12rem;
+}
+/* 毒家 */
+.banner{
+    width:100%;
+    height:1.59rem;
+    padding-top:.10rem;
+    
+}
+.banners{
+    padding-left:.20rem;
+    padding-right:.20rem;
+    display: flex;
+   
+}
+.banners a{
+    display: flex;
+    font-size:.14rem;
+    color:#848484;
+    line-height:.21rem;
+    margin:0 auto;
+    padding-top:.14rem;
+}
+
+.banners a img{
+  width: .20rem;
+  height:.20rem;
+}
+.banner h3{
+    font-size:.16rem;
+    padding-left:.40rem;
+    margin-top:.18rem;
+}
+.banner p{
+    padding-left:.20rem;
+    padding-right:.20rem;
+    color:#8c8b91;
+    font-size:.14rem;
+    margin-top:.13rem;
+}
+/* 小标签 */
+.bask{
+	padding-left:.20rem;
+    padding-right:.20rem;
+    
+	display: flex;
+	justify-content: space-between;
+}
+.baskLeft{
+    display: flex;
+    margin-top:.10rem;
+}
+.baskLeft img{
+        width:.15rem;
+        height:.14rem;
+        margin-top:.03rem;
+}
+
+.baskLeft span{
+  font-size:.14rem;
+  color:#cecece;
+ 
+}
+.baskRight{
+	display: flex;
+}
+.baskRight a img{
+width:.15rem;
+height:.10rem;
+margin-top:.18rem;
+margin-right:.08rem;
+  }
+  .baskRight span{
+	font-size:.14rem;
+    color:#cecece;
+    margin-top:.15rem;
+	  }

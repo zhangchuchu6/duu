@@ -1,0 +1,274 @@
+body,p,ol,ul,h1,h2,h3,h4,h5,h6,fieldset,select,input,textarea{
+	margin:0;
+	padding: 0;
+}
+html{
+	font-size:26.67vw;
+}
+html,body{
+	 width:100%;
+}
+a{
+	text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+
+img{
+	border:none;
+	display:block;
+}
+
+/* 头部 */
+header{
+    width:100%;
+    height:.47rem;
+
+}
+.box{
+    padding-left:.08rem;
+    padding-right:.18rem;
+}
+.box{
+	line-height: .45rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding-right: .14rem;
+	padding-left: .08rem;
+    padding-top:.10rem;
+    padding-bottom:.08rem;
+}
+.box i{
+	width:.28rem;
+	height:.27rem;
+	padding-left:.07rem;
+	padding-right:.10rem; 
+
+}
+.box .box_s{
+	 width:3.14rem;
+	 height:.27rem;
+	 border: none;
+	 background:#f5f5f9;
+	 color:#d3d3dd;
+	 line-height:.27rem;
+	 font-size:.14rem;
+}
+.box a img{
+	width:.25rem;
+	height:.25rem;
+}
+/* 大图部分 */
+.bigS{
+    width:100%;
+    height:1.24rem;
+}
+.bigS a img{
+     width:100%;
+     height:1.24rem;
+}
+/* 轮播图部分 */
+nav{
+    width:100%;
+    height:1.09rem;
+    border:1px solid #f7f7f7;
+}
+.nav_s{
+    padding-left:.16rem;
+    padding-right:.17rem;
+    padding-top:.27rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_s a{
+    font-size:.12rem;
+    color:black;
+    font-weight: 600;
+    text-align: center;
+}
+.nav_s a img{
+     width:.5rem;
+     height:.32rem;
+     margin-bottom:.13rem;
+    
+}
+.nav_s a .navss{
+    margin-left:.10rem;
+   
+}
+/* 原价部分 */
+.yuanjia{
+    width:100%;
+    height:.81rem;
+}
+.yuanjia a img{
+    width:100%;
+    height:.81rem;
+}
+/* 交易部分 */
+.bargain{
+    width:100%;
+    height:1.26rem;
+    padding-bottom:.25rem;
+}
+.bargainS{
+    padding-left:.20rem;
+    padding-right:.20rem;
+    height:1.26rem;
+    display: flex; 
+    border:1px solid #f7f7f7;
+}
+.bargainL:nth-child(2){
+    margin-left:.24rem;
+}
+.bargainL{
+    width:1.68rem;
+    height:1.45rem;
+}
+.bargain h3{
+    font-size:.18rem;
+    padding-top:.23rem;
+}
+.bargain_t{
+    display: flex;
+    padding-top:.28rem;
+}
+.bargain_t a img{
+    width:.83rem;
+    height:.46rem;
+}
+.bargain_t a .imgs{
+    margin-left:.18rem;
+}
+.bargainB .price{
+    font-size:.20rem;
+    color:#ff2763;
+    display: block;
+}
+.bargainB .prices{
+    font-size:.10rem;
+    color:#6f6e74;
+    text-decoration:line-through;
+}
+/* 倒计时 */
+.daojishi{
+    display: flex;
+}
+.daojishi .dj_left{
+ margin-left:.10rem;
+ margin-top:.25rem;
+}
+.daojishi .ms_time{
+    width:.88rem;
+    display: flex;
+}
+.daojishi .num{
+    font-size:.12rem;
+    margin-left:.10rem;
+}
+.daojishi .str{
+    font-size:.12rem;
+    margin-left:.06rem;
+}
+/* banner */
+.banner{
+    width:100%;
+    height:.51rem;
+}
+.banners{
+     margin-left:.20rem;
+     padding-right:.20rem;
+     height:.51rem;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background: url("../img/3bank.jpg")  no-repeat;
+     background-size:3.37rem .51rem;
+}
+.banners a{
+    height:.15rem;
+    font-size:.16rem;
+    display: flex;
+    color:white;
+
+}
+.banners a img{
+    width:.15rem;
+    height:.15rem;
+    margin-top:.05rem;
+}
+/* 商品列表 */
+.arrange{
+    width:100%;
+}
+.arranges{
+    display: flex;
+    padding-left:.20rem;
+    padding-right:.20rem;
+}
+.arrLeft{
+    width:1.67rem;
+   
+}
+.arrLeft img{
+    width:1.28rem;
+    height:.97rem;
+    margin-top:.20rem;
+}
+.arrLefts {
+    margin-left:.3rem;
+}
+.arrBto{
+    display: flex; 
+} 
+.arrLeft p{
+    font-size:.14rem;
+    color:#dadada;
+    width:1.47rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+     line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top:.26rem;
+}
+.arrBto{
+    margin-top:.10rem;
+}
+.arrBto h2{
+    display: inline-block;
+    font-size:.14rem;
+}
+.arrBto span{
+    font-size:.14rem;
+    color:#92959a;
+    margin-left:.12rem;
+}
+/* 尾部 */
+.footer{
+	padding-top:.21rem;
+	width:100%;
+	height:.60rem;
+	background: #f7f7f9;
+}
+.footer_one{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.footer_one a{
+	font-size:.14rem;
+	color:black;
+
+}
+
+.footer_one a img{
+	margin-bottom:.12rem;
+	padding-left:.02rem;
+	width:.28rem;
+	height:.26rem;
+  }

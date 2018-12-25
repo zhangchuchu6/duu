@@ -1,0 +1,164 @@
+body,p,ol,ul,h1,h2,h3,h4,h5,h6,fieldset,select,input,textarea{
+	margin:0;
+	padding: 0;
+}
+html{
+	font-size:26.67vw;
+}
+html,body{
+	 width:100%;
+}
+a{
+	text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+
+img{
+	border:none;
+	display:block;
+}
+/* 商品头部 */
+header{
+    width:100%;
+    height:.27rem;
+}
+.box{
+    padding-left:.15rem;
+	padding-right:.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.box img{
+	text-align: center;
+	 width:.23rem;
+	 height:.25rem;
+}
+.boxR{
+	display: flex; 
+	
+}
+.boxR a .imgs{
+	margin-left:.16rem;
+} 
+/* 内容部分 */
+.content{
+	width:100%;
+	padding-top:.20rem;
+	border-bottom:1px solid #e5e5e5;
+}
+.contents{
+	padding-left:.15rem;
+	padding-right:.15rem;
+}
+.contents a img{
+	  width:2.2rem;
+	  height:1.5rem;
+	  margin-left:.55rem;
+}
+.contents p{
+	width:2.9rem;
+	font-size:.19rem;
+	color:#3e3e3e;
+	text-align: center;
+	margin-left:.23rem;
+	margin-top:.77rem;
+}
+.contents h3{
+	font-size:.19rem;
+	text-align: center;
+	margin-top:.17rem;
+	margin-bottom:.17rem;
+
+}
+/* 尺码部分 */
+.sizes{
+	width:100%;
+	height:.50rem;
+}
+.Bsizes{
+	padding-left:.15rem;
+	padding-right:.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.Bsizes span{
+	font-size:.13rem;
+	color:.13rem;
+	line-height:.50rem;
+
+}
+.Bsizes a p{
+	font-size:.18rem;
+	color:black;
+	line-height:.50rem;
+
+	
+}
+.Bsizes a img{
+	width:.08rem;
+	height:.10rem;
+	margin-top:.25rem;
+
+}
+/* nav部分 */
+nav{
+	width:100%;
+	display: -webkit-flex;
+	justify-content: space-between;
+   -webkit-flex-wrap:wrap;
+   background: white;
+   
+}
+
+nav a{
+   width: 20%;
+   font-size: .12rem;
+   color: #717171;
+   text-align: center;
+   padding-top: .17rem;
+   padding-bottom: .17rem;
+   box-sizing: border-box;
+   
+}
+
+nav a img{
+   width: .47rem;
+   height: .47rem;
+   margin:0 auto .07rem;
+}
+/* 尾部 */
+footer{
+	 width:100%;
+	 height:.57rem;
+	 
+}
+
+.footers .sale{
+	display: inline-block;
+	width:.80rem;
+	height:.43rem;
+	border:1px solid #d4d3db;
+	font-size:.15rem;
+	color:black;
+	text-align: center;
+	line-height:.43rem;
+	margin-left:.13rem;
+
+}
+.footers .bought{
+	display: inline-block;
+	width:2.27rem;
+	height:.43rem;
+	border:1px solid #d4d3db;
+	font-size:.15rem;
+	color:white;
+	background:#01c1c2;
+	text-align: center;
+	line-height:.43rem;
+	margin-right:.10rem;
+
+
+
+}
